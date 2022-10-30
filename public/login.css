@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* align-items: center;
+    justify-content: center; */
+    background: url("assets/bowl.jpg");
+}
+
+button {
+    align-items: center;
+}
+
+#card {
+    width: 300px;
+    align-items: center;
+    background-color: #FFFFFF80;
+}
+
+#hw {
+    font-family: 'Calistoga';
+    text-shadow: 3px 3px #719FB0;
+}

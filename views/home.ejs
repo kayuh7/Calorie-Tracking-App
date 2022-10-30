@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <title>Welcome to HealthWise</title>
+  <link rel="stylesheet" href="home.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Aladin&family=Calistoga&family=Patua+One&family=Yeseva+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg" id="nav">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" id="hw">HealthWise</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" id="toggleIcon"><i class="fa-solid fa-bars"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        </ul>
+        <form action="/login" class="d-flex">
+          <button class="btn btn-info btn-lg" type="submit" id="signin">Sign In</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid img mb-5">
+    <div class="container py-5" id="txt">
+      <h1 class="display-1 text-white pt-3 pb-5">Be wise, HealthWise</h1>
+      <h1 class="display-5 text-white mt-3">Join us to start tracking your calories!</h1>
+      <form action="/register" class="d-flex">
+        <button type="submit" class="btn btn-success text-white btn-lg my-5" method="get" id="signup">Sign Up</button>
+      </form>
+    </div>
+  </div>
+  <div class="container mb-5" id="info">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card" style="width: 350px;">
+          <div class="card-body">
+            <h5 class="card-title">HealthWise</h5>
+            <h6 class="card-subtitle mb-2 text-muted">About Us</h6>
+            <p class="card-text">We are a team of four people from ACC bootcamp. This is our team project. Feel free to
+              leave us with your feedbacks.</p>
+            <a href="#" class="card-link">Contact Us</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 offset-md-2 mt-4">
+        <h2>We are the fastest growing calorie track app that is out there!</h2>
+        <h6>Join us to track your calorie whenever you are and wherever you go. HealthWise is easy to use and easy to
+          learn. We provide you with simple steps to track your calories. Having us is like getting a spy for your
+          calories. You will never miss your calorie count again. Be wised, HealthWise.</h6>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer mt-auto py-5" id="footer">
+    <div class="container">
+      <span class="text-white">&copy HealthWise 2022</span>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous">
+  </script>
+  <script src="https://kit.fontawesome.com/4dd305d0ad.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

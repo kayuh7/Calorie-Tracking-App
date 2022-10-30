@@ -1,0 +1,49 @@
+.img {
+    /* background-image: url("./assets/IndexBackground.jpg");
+    background-size: cover; */
+    background-color: #A0C1B8;
+    height: 500px;
+}
+
+#nav, #footer {
+    background-color: #283e56;
+}
+
+#hw {
+    font-family: "Calistoga";
+    font-size: 30px;
+    text-shadow: 3px 3px #1989AC;
+    color: #F3F9FB;
+}
+
+#signin {
+    font-family: "Calistoga";
+    box-shadow: 3px 3px #313552;
+}
+
+#signup {
+    font-family: "Calistoga";
+    box-shadow: 3px 3px #2C3639;
+}
+
+/* #signin {
+    background-color: #51E3D4;
+} */
+
+body {
+    background-color: #FEF4E8;
+}
+
+#txt {
+    font-family: "Patua One";
+    text-shadow: 3px 3px #970747;
+}
+
+#info {
+    font-family: "Patua One";
+}
+
+#toggleIcon {
+    display: inline;
+    color: white;
+}

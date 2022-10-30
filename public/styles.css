@@ -1,0 +1,172 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #FEF4E8;
+    position: relative;
+    background: url("assets/plant.avif") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h2 {
+    color: black;
+}
+
+h1 {
+    color: black;
+}
+
+/* NAVBAR */
+#navbar {
+    background-color: #283E56;
+    font-family: 'Calistoga';
+}
+
+#healthwise {
+    color: white;
+    font-size: 30px;
+}
+
+#home, #profile, #recipes, #logout {
+    font-size: 20px;
+    color: white;
+}
+
+#toggleIcon {
+    display: inline;
+    color: white;
+}
+
+/* CALCOUNT */
+#fName {
+    font-family: 'Aladin';
+    font-size: 90px;
+    text-shadow: 3px 3px #719FB0;
+    padding-bottom: 30px;
+}
+
+#cal, #inputTitle, #myBtn, #modalTitle {
+    font-family: 'Calistoga';
+}
+
+#inputTitle {
+    padding-top: 30px;
+}
+
+#total {
+    color: #1989AC;
+    font-size: 100px;
+    text-shadow: 3px 3px #970747;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#max {
+    padding-top: 10px;
+}
+
+#calorieDisplay {
+    background-color: #A0C1B880;
+    width: 40%;
+    height: 100%;
+    /* box-shadow: 3px 3px #6DB193; */
+    padding-top: 30px;
+}
+
+#modalBtn {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: 'Calistoga'
+}
+
+#date {
+    font-size: 22px;
+}
+
+#amount {
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 2px 2px #A0C1B8;
+}
+
+#meal {
+    font-size: 18px;
+}
+
+#myBtn {
+    margin-bottom: 10px;
+}
+
+.card {
+    font-family: 'Calistoga';
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+#cardInfo {
+    font-family: 'Calistoga'
+}
+
+/* PROFILE */
+.avatar {
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 70%;
+    outline: 2px black solid;
+}
+
+#profileDisplay {
+    position: relative;
+    background-color: #A0C1B860;
+    width: 40%;
+    height: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    flex-direction: column;
+
+}
+
+#container {
+    width: auto;
+    margin: auto;
+    flex-direction: column;
+}
+
+.key {
+    font-family: 'Overlock';
+    font-weight: bold;
+    border-bottom: 3px black solid;
+}
+
+.row {
+    min-width: 0;
+    margin-bottom: 5px;
+}
+
+#edit {
+    font-family: 'Calistoga';
+}
+
+/* PROFILE EDIT */
+#cardEdit {
+    background-color: #A0C1B860;
+    width: 70%;
+    border: 3px black solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
