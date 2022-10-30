@@ -1,5 +1,6 @@
 # HealthWise
-Collaborative Capstone Project at ACC Software Development Bootcamp– Team Size of 4
+Collaborative Capstone Project at ACC Software Development Bootcamp – Team Size of 4
+
 Creators: Kayleen, Devin, Carmen, Kainan
 
 ## Description
